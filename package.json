@@ -1,0 +1,25 @@
+{
+  "name": "1",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "bin": {
+    "cgd": "src/main.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cli-progress": "^3.11.2",
+    "commander": "^9.3.0",
+    "node-fetch": "^3.2.8",
+    "node-xlsx": "^0.21.0",
+    "puppeteer": "^15.3.2"
+  },
+  "devDependencies": {
+    "@types/cli-progress": "^3.11.0"
+  }
+}
